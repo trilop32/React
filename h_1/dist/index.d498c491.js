@@ -3028,7 +3028,7 @@ function UserCard({ user }) {
                 children: user.name
             }, void 0, false, {
                 fileName: "index.jsx",
-                lineNumber: 79,
+                lineNumber: 78,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3037,7 +3037,7 @@ function UserCard({ user }) {
                         children: "Email:"
                     }, void 0, false, {
                         fileName: "index.jsx",
-                        lineNumber: 80,
+                        lineNumber: 79,
                         columnNumber: 16
                     }, this),
                     " ",
@@ -3045,7 +3045,7 @@ function UserCard({ user }) {
                 ]
             }, void 0, true, {
                 fileName: "index.jsx",
-                lineNumber: 80,
+                lineNumber: 79,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3054,7 +3054,7 @@ function UserCard({ user }) {
                         children: "Phone:"
                     }, void 0, false, {
                         fileName: "index.jsx",
-                        lineNumber: 81,
+                        lineNumber: 80,
                         columnNumber: 16
                     }, this),
                     " ",
@@ -3062,7 +3062,7 @@ function UserCard({ user }) {
                 ]
             }, void 0, true, {
                 fileName: "index.jsx",
-                lineNumber: 81,
+                lineNumber: 80,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3075,7 +3075,7 @@ function UserCard({ user }) {
                         children: "Address:"
                     }, void 0, false, {
                         fileName: "index.jsx",
-                        lineNumber: 86,
+                        lineNumber: 85,
                         columnNumber: 17
                     }, this),
                     " ",
@@ -3087,7 +3087,7 @@ function UserCard({ user }) {
                 ]
             }, void 0, true, {
                 fileName: "index.jsx",
-                lineNumber: 82,
+                lineNumber: 81,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3096,7 +3096,7 @@ function UserCard({ user }) {
                         children: "Company:"
                     }, void 0, false, {
                         fileName: "index.jsx",
-                        lineNumber: 88,
+                        lineNumber: 87,
                         columnNumber: 16
                     }, this),
                     " ",
@@ -3104,13 +3104,13 @@ function UserCard({ user }) {
                 ]
             }, void 0, true, {
                 fileName: "index.jsx",
-                lineNumber: 88,
+                lineNumber: 87,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "index.jsx",
-        lineNumber: 78,
+        lineNumber: 77,
         columnNumber: 9
     }, this);
 }
@@ -3121,21 +3121,21 @@ const app = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment
             user: user1
         }, void 0, false, {
             fileName: "index.jsx",
-            lineNumber: 95,
+            lineNumber: 94,
             columnNumber: 9
         }, undefined),
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(UserCard, {
             user: user2
         }, void 0, false, {
             fileName: "index.jsx",
-            lineNumber: 96,
+            lineNumber: 95,
             columnNumber: 9
         }, undefined),
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(UserCard, {
             user: user3
         }, void 0, false, {
             fileName: "index.jsx",
-            lineNumber: 97,
+            lineNumber: 96,
             columnNumber: 9
         }, undefined)
     ]
