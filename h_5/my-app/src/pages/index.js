@@ -11,7 +11,7 @@ export default function Home() {
         <button>Таблица пользователей</button>
       </Link>
        <Link href="/task2delayed">
-        <button>Таблица пользователей</button>
+        <button>Таблица пользователей по кнопке</button>
       </Link>
     </div>
   );
