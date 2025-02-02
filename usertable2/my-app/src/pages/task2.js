@@ -45,7 +45,7 @@ export default function Task2() {
       }
       const userData = await response.json();
       setSelectedUser(userData);
-      setUserPosts(null); // Очищаем посты при выборе нового пользователя
+      setUserPosts(null);
     } catch (error) {
       console.error('Ошибка при получении данных пользователя:', error);
       setSelectedUser(null)
