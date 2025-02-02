@@ -1,0 +1,38 @@
+body {
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+}
+
+.calendar-container {
+  border: 1px solid #ccc;
+  width: 300px;
+  font-family: sans-serif;
+}
+
+.days-of-week {
+  grid-template-columns: repeat(7, 1fr);
+  display: grid;
+}
+
+.day-of-week {
+  text-align: center;
+  padding: 5px;
+}
+
+.calendar-grid {
+  grid-template-columns: repeat(7, 1fr);
+  display: grid;
+}
+
+.calendar-day {
+  text-align: center;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+input[type="month"] {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

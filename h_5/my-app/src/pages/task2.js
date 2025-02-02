@@ -1,6 +1,6 @@
 import UserTable from '../components/UserTable';
 import { useEffect, useState } from 'react';
-
+import './style.css';
 const columns = [
   { key: 'name', label: 'Имя' },
   { key: 'email', label: 'Email' },

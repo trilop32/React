@@ -10,8 +10,11 @@ export default function Home() {
       <Link href="/task2">
         <button>Таблица пользователей</button>
       </Link>
-       <Link href="/task2delayed">
+      <Link href="/task2delayed">
         <button>Таблица пользователей по кнопке</button>
+      </Link>
+      <Link href="/task3">
+        <button>Календарь</button>
       </Link>
     </div>
   );
