@@ -10,7 +10,6 @@ const columns = [
   { key: 'company.name', label: 'Компания' },
 ];
 
-
 export default function Task2() {
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(true);
