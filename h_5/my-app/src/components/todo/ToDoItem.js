@@ -1,4 +1,4 @@
-import React, { memo, useCallback } from 'react';
+import { memo, useCallback } from 'react';
 
 const ToDoItem = memo(({ task, onDelete, onComplete }) => {
   console.count(`ToDoItem Render: ${task.text}`);
@@ -40,5 +40,5 @@ const ToDoItem = memo(({ task, onDelete, onComplete }) => {
     </li>
   );
 });
-
+ToDoItem.displayName = 'ToDoItem';
 export default ToDoItem;

@@ -1,20 +1,19 @@
 import React, { useState, useCallback, memo } from 'react';
 
-const ToDoForm = memo(({ onAddTask }) => {
+const ToDoForm = memo(function ToDoForm({ onAddTask }) {
   console.count("ToDoForm Render");
   const [newTask, setNewTask] = useState('');
-
+  
   const handleInputChange = useCallback((event) => {
     setNewTask(event.target.value);
   }, []);
 
-    const handleAddTaskClick = useCallback(() => {
-        if (newTask.trim() !== '') {
-            onAddTask(newTask);
-            setNewTask('');
-        }
-    }, [newTask, onAddTask]);
-
+  const handleAddTaskClick = useCallback(() => {
+    if (newTask.trim() !== '') {
+      onAddTask(newTask);
+      setNewTask('');
+    }
+  }, [newTask, onAddTask]);
   return (
     <div style={{ display: 'flex', marginBottom: '10px' }}>
       <input
@@ -30,5 +29,6 @@ const ToDoForm = memo(({ onAddTask }) => {
     </div>
   );
 });
-
+ToDoForm.displayName = 'ToDoForm';
 export default ToDoForm;
+

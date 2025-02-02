@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import { memo } from 'react';
 import ToDoItem from './ToDoItem';
 
 const ToDoList = memo(({ tasks, onDeleteTask, onCompleteTask, onDeleteCompletedTasks }) => {
@@ -26,5 +26,5 @@ const ToDoList = memo(({ tasks, onDeleteTask, onCompleteTask, onDeleteCompletedT
     </>
   );
 });
-
+ToDoList.displayName = 'ToDoList';
 export default ToDoList;
