@@ -1,5 +1,5 @@
 import UserTable from '../components/UserTable';
-import { useState,useEffect } from 'react';
+import { useState } from 'react';
 import './style.css';
 const columns = [
     { key: 'name', label: 'Имя' },

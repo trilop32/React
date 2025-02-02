@@ -16,6 +16,9 @@ export default function Home() {
       <Link href="/task3">
         <button>Календарь</button>
       </Link>
+      <Link href="/task4">
+        <button>Список дел (v2.0)</button>
+      </Link>
     </div>
   );
 }
