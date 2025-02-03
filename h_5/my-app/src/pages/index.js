@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import './style.css';
 export default function Home() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', padding: '20px' }}>
@@ -26,7 +26,7 @@ export default function Home() {
         <button>Таблица пользователей (v3.0)</button>
       </Link>
       <Link href="/Exam">
-        <button>Экзамен</button>
+        <button class="ex">Экзамен</button>
       </Link>
     </div>
   );

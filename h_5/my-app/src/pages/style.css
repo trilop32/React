@@ -36,3 +36,18 @@ body {
 input[type="month"] {
     margin-bottom: 10px;
 }
+.ex{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px 40px; 
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer; 
+}
+.ex:hover {
+    background-color: #367c39; 
+}
