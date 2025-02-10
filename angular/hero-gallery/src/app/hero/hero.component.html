@@ -1,0 +1,23 @@
+<div class="hero-container">
+  <h1>Информация о герое</h1>
+
+  <div >
+    <h2>{{ hero.name }}</h2>
+    <img [src]="hero.imageUrl" alt="{{ hero.name }}" style="max-width: 200px;">
+    <p>ID: {{ hero.id }}</p>
+    <p>Возраст: {{ hero.age }}</p>
+    <p>Суперсила: {{ hero.superpower }}</p>
+    <p>Уровень силы: {{ powerLevel }}%</p>
+
+    <div >
+      Текущий уровень силы: {{ powerLevel }}
+    </div>
+
+  </div>
+  <button (click)="increasePower()">Увеличить силу</button>
+  <button (click)="decreasePower()">Уменьшить силу</button>
+
+  <div *ngIf="powerLevel > 90">
+    <p style="color: green; font-weight: bold;">Суперсила максимальна!</p>
+  </div>
+</div>
